@@ -1,5 +1,7 @@
 # Weather Shield Arduino Library [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT) [![Analytics](https://ga-beacon.appspot.com/UA-97622785-1/README?flat)](https://github.com/igrigorik/ga-beacon)
-Arduino library for the TE Connectivity Weather Shield
+Arduino library for the TE Connectivity Weather Shield.
+
+This fork is being modified to work with [PRJC Teensy 3.X](https://www.pjrc.com/store/index.html), specifically a Teensy 3.1/3.2 in a [SparkFun Teensy Shield](https://www.sparkfun.com/products/13288) and using the robust [i2c_t3 library](https://github.com/systronix/i2c_t3) from [nox771](https://github.com/nox771/i2c_t3).
 
 ![weathershield](https://cloud.githubusercontent.com/assets/20226823/18585927/3a23b69a-7c1a-11e6-857b-6aa3a8e6d244.jpg)
 
