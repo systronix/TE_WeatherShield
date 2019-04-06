@@ -2,7 +2,7 @@
 Arduino libraries for the TE Connectivity Weather Shield especially when used with Teensy 3.X
 For under $35 you get five sensors. DigiKey has a [WeatherShield product page](https://www.digikey.com/en/product-highlight/t/te-connectivity-measurement-specialties/weather-shield) and [so does TE](https://www.te.com/usa-en/product-10212634-00.html). There is also a Raspberry Pi HAT [at DigiKey](https://www.digikey.com/catalog/en/partgroup/raspberry-pi-weather-shield/69547) and [TE](https://www.te.com/usa-en/product-10212635-00.html) with all but the MS8607, probably due to I2C address space limits (the HAT doesn't have an I2C MUX).
 
-NOTE: as of this moment this is a fork of the unchanged TE libraries, with just some name changes to make them easier to view in the Arduino IDE. I expect to push working Teensy code this weekend... there are some bugs in the libraries... updated 2019 Apr 06 22:25 UTC
+**NOTE: as of this moment this is a fork of the unchanged TE libraries, with just some name changes to make them easier to view in the Arduino IDE. I expect to push working Teensy code this weekend... there are some bugs in the libraries... updated 2019 Apr 06 22:25 UTC**
 
 ![weathershield](https://cloud.githubusercontent.com/assets/20226823/18585927/3a23b69a-7c1a-11e6-857b-6aa3a8e6d244.jpg)
 
