@@ -1,9 +1,13 @@
-#include <TEWeatherShield.h>
+#include <TE_WeatherShield.h>
 
 static TEWeatherShield weatherShield;
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);     // use max baud rate
+  // Teensy3 doesn't reset with Serial Monitor as do Teensy2/++2, or wait for Serial Monitor window
+  // Wait here for 10 seconds to see if we will use Serial Monitor, so output is not lost
+  while((!Serial) && (millis()<10000));    // wait until serial monitor is open or timeout
+
   Serial.println("TE Connectivity Sensor Solutions");
   Serial.println("==== Arduino Weather Shield ===="); 
   Serial.println();
